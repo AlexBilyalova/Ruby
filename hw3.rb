@@ -1,11 +1,11 @@
 puts 'A: '
-A = gets.chomp
+A = gets.chomp.to_f
 
 puts 'B: '
-B = gets.chomp
+B = gets.chomp.to_f
 
 puts 'C: '
-C = gets.chomp
+C = gets.chomp.to_f
 
 S = (A+B+C)/2
 

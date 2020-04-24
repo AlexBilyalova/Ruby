@@ -1,13 +1,18 @@
-puts 'A: '
-A = gets.chomp.to_f
+puts 'a: '
+a = gets.chomp.to_f
 
-puts 'B: '
-B = gets.chomp.to_f
+puts 'b: '
+b = gets.chomp.to_f
 
-puts 'C: '
-C = gets.chomp.to_f
+puts 'c: '
+c = gets.chomp.to_f
 
-max { |A, B, C|  }
-
-if a==b && a == c && b==c
-  
+if a==b && a==c && b==c
+  puts 'Ravnostoroniy'
+elsif a==b || a==c || b==c
+  puts  'Ravnobedreniy'
+elsif c==(a**2)+(b**2)
+  puts 'Pryamougolniy'
+else
+  puts 'Raznostoroniy'
+end
