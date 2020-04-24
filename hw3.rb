@@ -1,12 +1,12 @@
 puts 'A: '
-A = gets.chomp.to_f
+A = gets.chomp
 
 puts 'B: '
-B = gets.chomp.to_f
+B = gets.chomp
 
 puts 'C: '
-C = gets.chomp.to_f
+C = gets.chomp
 
-P = (A+B+C)/2
+S = (A+B+C)/2
 
-puts "#{P}"
+puts "S is #{S}"
