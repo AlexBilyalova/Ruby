@@ -1,7 +1,7 @@
 fib = [0,1]
 i=2
 
-loop do
+while
   next_fib = fib[-1]+fib[-2]
   break if next_fib>=100
   fib << next_fib
