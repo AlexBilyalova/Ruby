@@ -1,12 +1,9 @@
-puts 'A: '
-A = gets.chomp.to_f
+puts 'a: '
+a = gets.chomp.to_i
 
-puts 'B: '
-B = gets.chomp.to_f
+puts 'h: '
+h = gets.chomp.to_i
 
-puts 'C: '
-C = gets.chomp.to_f
+s = (1%2)*(a*h)/2
 
-S = (A+B+C)/2
-
-puts "S is #{S}"
+puts "s is #{s}"
