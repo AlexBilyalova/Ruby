@@ -1,9 +1,9 @@
-alphabet = ("a".."z").to_a
-
-vowels = "aeiouy".to_s
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+vowels = "aeiouy"
 vowels_hash = {}
-vowel = 0
-for vowel in vowels
-end
-puts vowels
-vvv
+
+for i in 0..vowels.length - 1
+  vowels_hash[vowels[i]] = alphabet.index(vowels[i])+1
+  end
+
+puts vowels_hash
